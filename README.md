@@ -1,5 +1,5 @@
 # Netflix Application (movie streaming platform)
-![](readmeAsset/dating1.gif)
+![](readmeAsset/register.gif)
 ## How long did it take ?
 2 weeks
 
@@ -23,30 +23,21 @@
   * working with team mates
 
 
-![](readmeAsset/register.gif)
-
 ## What is this project ?
 This is a movie streaming app that has 3 main features :
 
 ### 1. User Features
 A user can register. A user can login with various method (facebook / google / 42network). A user can change his information and can upload personnal movies. Users can see other users page.
 
+![](readmeAsset/profile.gif)
+
 ### 2. Gallery of Movie and Search Engine
 
-![](readmeAsset/search.gif)
 
-### 3. Search Engine (sorting and filtering)
+### 3. Streaming
 You can search for specific user according to specific tags, geographic proximity, age and fame. You can also sort the selection through these properties.
+![](readmeAsset/film.gif)
 
-### 4. Notifications and Chat
-Once two users have liked each other (match) their pictures appear in the user selection of the chat page and they can exchange messages (they can chat).
-Notification system is in place : a user receives a notification if : 
-  * a user consult your profile
-  * a user likes your profile
-  * a user sends you a message
-  * a user dislike your profile
-
-![](readmeAsset/chat.gif)
 For more information about the project please see the pdf subject available in french and english at ![subject](https://github.com/nepriel/netflix-42/tree/master/subjects "subject").
 
 ### How do I run it on my laptop ?
@@ -99,6 +90,6 @@ Within the backend path creat a new foldder (if it does not exist)
 mkdir uploads
 ```
 
-et voilà ! consult the frontend at this link ![fontend](http://localhost:5000 "localhost").
+et voilà ! go to `http://localhost:5000`
 
-![alt text](https://github.com/nepriel/dating-site/blob/master/readmeAsset/correction.PNG "result of evaluation of project")
+![alt text](https://github.com/nepriel/netflix-42/blob/master/readmeAsset/correction.PNG "result of evaluation of project")
