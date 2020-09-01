@@ -1,0 +1,10 @@
+data/
+*.swp
+*.vim
+commit_msg_template
+node_modules/
+yarn-error.log
+yarn.lock
+package-lock.json
+docker
+.env
