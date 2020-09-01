@@ -32,10 +32,11 @@ A user can register. A user can login with various method (facebook / google / 4
 ![](readmeAsset/profile.gif)
 
 ### 2. Gallery of Movie and Search Engine
-
+The website interrogates yify API and will render by default the most highly rated movies it can find. We build a search engine that can render a query string such as "harry" or "harry potter", specified genra ("horror", "adventure", "drama"...), specified years or popularity/ratings. You can then sort it by ascending or descending order.
+![](readmeAsset/search.gif)
 
 ### 3. Streaming
-You can search for specific user according to specific tags, geographic proximity, age and fame. You can also sort the selection through these properties.
+you can click on the movie to go to its details page. The streaming link automatically activates from backend and you can directly stream it on your browser while it's downloading in back.
 ![](readmeAsset/film.gif)
 
 For more information about the project please see the pdf subject available in french and english at ![subject](https://github.com/nepriel/netflix-42/tree/master/subjects "subject").
