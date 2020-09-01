@@ -23,7 +23,7 @@
   * working with team mates
 
 
-![](readmeAsset/connect.gif)
+![](readmeAsset/register.gif)
 
 ## What is this project ?
 This is a movie streaming app that has 3 main features :
@@ -47,62 +47,58 @@ Notification system is in place : a user receives a notification if :
   * a user dislike your profile
 
 ![](readmeAsset/chat.gif)
-For more information about the project please see the pdf subject available in french and english at ![subject](https://github.com/nepriel/dating-site/tree/master/subjects "subject").
+For more information about the project please see the pdf subject available in french and english at ![subject](https://github.com/nepriel/netflix-42/tree/master/subjects "subject").
 
 ### How do I run it on my laptop ?
-You will need docker running on your machine.
+Edit your `/etc/hosts` file:
 
+```
+127.0.0.1   si.hpt.local
+127.0.0.1   app.hpt.local
+127.0.0.1   mongo.hptdb.local
+```
 
-####Setup the environement varibales
-
-- Within the root path 
+Navigate to frontend
 
 ```bash
-# environment variables
+cd frontend
+```
+
+Copy the env variables for developement environment
+
+```bash
 cp .env-template .env
 ```
 
-- Navigate to /backend path 
+Navigate to backend
 
 ```bash
-# environment variables
+cd backend
+```
+
+Copy the env variables for developement environment
+
+```bash
 cp .env-template .env
 ```
 
-- Navigate to /frontend path 
+Within the backend path creat a new foldder (if it does not exist)
 
 ```bash
-# environment variables
-cp .env-template .env
+mkdir uploads
 ```
 
-####Build the containers
-
-In the root path
-
+Build the project from the root directory
 ```bash
 docker-compose up --build
 ```
 
-Note : the port 80 must not be used by another application (like Apache or Skype).
-
-P.S : The build may take some time don't worry be happy and grab a cup of tea :)
-
-Once the containers started.
-Navigate to frontend to start the server.
+Within the backend path creat a new foldder (if it does not exist)
 
 ```bash
-npm start
+mkdir uploads
 ```
-P.S : npm version 6.7.0
 
-
-####List of links
-
-```bash
-si.matcha.local:3000 -> backend ( REST API )
-app.matcha.local:8083 -> frontend
-phpmyadmin.matcha.local:8080 -> phpMyAdmin
-```
+et voilà ! consult the frontend at this link ![fontend](http://localhost:5000 "localhost").
 
 ![alt text](https://github.com/nepriel/dating-site/blob/master/readmeAsset/correction.PNG "result of evaluation of project")
